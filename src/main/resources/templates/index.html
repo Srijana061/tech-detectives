@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="https://www.thymeleaf.org/">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<head th:replace="~{fragments :: head}"></head>
 <body>
+<header th:replace="~{fragments :: header}"></header>
+
+<main>
+    <h1 th:text="${headingText}"></h1>
+    <p>This portal will allow you to help manage your <a href='/hobbies'>collection</a> of hobbies by category.</p>
+</main>
 
 </body>
 </html>
