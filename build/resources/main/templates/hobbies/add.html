@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
+
+<body>
+<header th:replace="~{fragments :: header}"></header>
+<div id="admin-bar">
+    <div class="nav">
+        <a class="navlink" href="/hobbies">View List of hobbies by category</a>
+    </div>
+
+</div>
+<main>
+    <h3>Add Category of Hobby</h3>
+    <form action='/hobbies/add' method='POST'>
+        <input type="text" name="hobby" />
+        <button type="submit">Add to Categories</button>
+    </form>
+</main>
+
+</body>
+</html>
