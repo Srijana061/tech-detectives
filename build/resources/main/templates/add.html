@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
+<body class="container body-content">
+
+<nav th:replace="~{fragments :: page-header}"></nav>
+
+<h1>Add Hobby</h1>
+
+<form method="post" style="max-width:600px;">
+    <div class="form-group">
+        <label th:for="name">Name</label>
+        <input class="form-control" th:field="${hobby.name}" />
+        <span th:errors="${hobby.name}" class="error"></span>
+    </div>
+
+    <div class="form-group">
+        <label th:for="category">Category</label>
+        <select name="categoryId">
+            <option th:each="category : ${categories}"
+                    th:text="${category.name}"
+                    th:value="${category.id}"></option>
+        </select>
+        <a th:href="@{'/categories/add'}">Add Categories</a>
+    </div>
+
+
+    <input type="submit" value="Add Hobby" />
+</form>
+
+</body>
+</html>

@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org/">
-<head th:replace="~{fragments :: head}"></head>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}">
+</head>
 <body>
-<header th:replace="~{fragments :: header}"></header>
 
-<main>
-    <h1 th:text="${headingText}"></h1>
-    <p>This portal will allow you to help manage your <a href='/hobbies'>collection</a> of hobbies by category.</p>
-</main>
+<div th:replace="~{fragments :: page-header}"></div>
+
+<div class="container body-content">
+    <h2>Hobbies</h2>
+    <ul>
+        <li th:each="hobby : ${hobbies}">
+            <a th:href="@{'/view/' + ${hobby.id}}" th:text="${hobby.name}"></a>
+        </li>
+    </ul>
+
+</div>
 
 </body>
 </html>
