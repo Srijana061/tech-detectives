@@ -14,6 +14,7 @@ public class Hobby {
     @Id
     @GeneratedValue
     private int id;
+
     private String name;
 
     @ManyToOne

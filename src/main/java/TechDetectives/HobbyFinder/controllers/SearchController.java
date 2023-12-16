@@ -36,7 +36,7 @@ public class SearchController {
             hobbies = HobbyData.findByColumnAndValue(searchType, searchTerm, hobbyRepository.findAll());
         }
         model.addAttribute("columns", columnChoices);
-        model.addAttribute("title", "Hobbies with " + columnChoices.get(searchType) + ": " + searchTerm);
+        model.addAttribute("title", "Hobbies  " + columnChoices.get(searchType) + ": " + searchTerm);
         model.addAttribute("hobbies", hobbies);
 
         return "search";

@@ -31,7 +31,7 @@ public class HomeController {
     }
 
     @GetMapping("add")
-    public String displayAddJobForm(Model model) {
+    public String displayAddHobbyForm(Model model) {
         model.addAttribute("title", "Add Hobby");
         model.addAttribute(new Hobby());
 
