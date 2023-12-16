@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org/">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
+
+<body class="container  body-content">
+<h1 th:text="${'Hobby: ' + hobby.name}">Default Title</h1>
+
+<nav th:replace="~{fragments :: page-header}"></nav>
+
+<div class="hobby-listing">
+    <p th:text="${'ID: ' + hobby.id}"></p>
+    <p th:text="${'Name: ' + hobby.name}"></p>
+    <p>
+        Category: <a th:href="@{'/categories/view/' + ${hobby.category.id}}" th:text="${hobby.category.name}"></a>
+    </p>
+
+
+</div>
+
 
 </body>
 </html>
