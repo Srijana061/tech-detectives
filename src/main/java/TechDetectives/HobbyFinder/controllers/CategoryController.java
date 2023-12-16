@@ -45,8 +45,7 @@ public class CategoryController {
     }
 
     @GetMapping ("view/{categoryId}")
-    public String displayViewCategory(Model model,
-        @PathVariable int categoryId) {
+    public String displayViewCategory(Model model, @PathVariable int categoryId) {
     Optional<Category> optCategory = categoryRepository.findById(categoryId);
     if(optCategory.isPresent()) {
         Category category = (Category) optCategory.get();

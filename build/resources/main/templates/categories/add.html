@@ -13,16 +13,11 @@
     <span th:errors="${category.name}" class="error"></span>
     </div>
     <div class="form-group">
-        <label th:for="location">Hobby Location</label>
+        <label th:for="location">Location</label>
         <input class="form-control" th:field="${category.location}" />
         <span th:errors="${category.location}" class="error"></span>
     </div>
 
-    <div class="form-group">
-        <label th:for="description">Hobby Description</label>
-        <input class="form-control" th:field="${category.description}" />
-        <span th:errors="${category.description}" class="error"></span>
-    </div>
     <input type="submit" value="Add Category"/>
 </form>
 

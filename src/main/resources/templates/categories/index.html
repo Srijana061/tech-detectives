@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<html xmlns:th="https://www.thymeleaf.org/">
 <head th:replace="~{fragments :: head}"></head>
 <body>
-<header th:replace="~{fragments :: header}"></header>
+<div th:replace="~{fragments :: page-header}"></div>
 <p th:unless = "${categories} and ${categories.size()}">no hobbies!</p>
-<h2>Categories</h2>
-<ul>
-    <li th:each="category:${categories}">
-        <a th:href="@{'/categories/view/' + ${category.id}}" th:text="${category.name}"></a>
-    </li>
-</ul>
+<div class="container body-content">
+    <h2>Categories</h2>
+    <ul>
+        <li th:each="category: ${categories}">
+            <a th:href="@{'/categories/view/' + ${category.id}" th:text="${category.name}"></a>
+        </li>
+    </ul>
 <a th:href="@{'/categories/add'}">Add Categories</a>
-
+</div>
 </body>
 </html>

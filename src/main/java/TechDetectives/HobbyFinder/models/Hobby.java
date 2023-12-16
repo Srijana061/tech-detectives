@@ -9,43 +9,19 @@ import jakarta.persistence.ManyToOne;
 import java.util.Objects;
 
 @Entity
-public class Hobby {
-
-    @Id
-    @GeneratedValue
-    private int id;
-
-    private String name;
+public class Hobby extends AbstractEntity {
 
     @ManyToOne
     private Category category;
-    private String location;
-    private String description;
-
 
     public Hobby() {
 
     }
 
-    public Hobby(String name, Category aCategory, String location, String description) {
-
-        this.name = name;
+    public Hobby(Category aCategory) {
+        super();
         this.category = aCategory;
-        this.location = location;
-        this.description = description;
 
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Category getCategory() {
@@ -56,43 +32,6 @@ public class Hobby {
         this.category = category;
     }
 
-    public String getLocation() {
-        return location;
-    }
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    @Override
-    public String toString() {
-        return "Hobby{" +
-                "name='" + name + '\'' +
-                ", category='" + category + '\'' +
-                ", location='" + location + '\'' +
-                ", description='" + description + '\'' +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Hobby hobby = (Hobby) o;
-        return id == hobby.id;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id);
-    }
 }
 
