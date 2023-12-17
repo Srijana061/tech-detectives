@@ -3,10 +3,14 @@
 <head th:replace="~{fragments :: head}"></head>
 
 <body>
-<header th:replace="~{fragments :: header}"></header>
+
 <h1 th:text="${'Category: ' + category.name}">Default Title</h1>
+<nav th:replace="~{fragments :: page-header}"></nav>
+
+<div class ="hobby-listing">
 <p th:text="${'Name: ' + category.name}"></p>
-<p>Hobbies:
+    <p th:text="${'Location: ' + category.location}"></p>
+<p> Hobbies:
 <ul>
     <li th:each="hobby: ${category.hobbies}">
         <a th:href = "@{'/view/' +${hobby.id}}"
@@ -14,6 +18,7 @@
     </li>
 </ul>
 </p>
+</div>
 
 </body>
 </html>
