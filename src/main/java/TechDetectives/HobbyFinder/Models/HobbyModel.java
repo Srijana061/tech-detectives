@@ -1,4 +1,4 @@
 package TechDetectives.HobbyFinder.Models;
 
-public class Comment {
+public class HobbyModel {
 }

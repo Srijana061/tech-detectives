@@ -1,4 +1,4 @@
 package TechDetectives.HobbyFinder.Models;
 
-public class Post {
+public class UserModel {
 }
