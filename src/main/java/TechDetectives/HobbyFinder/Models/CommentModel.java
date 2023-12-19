@@ -11,3 +11,17 @@ public class CommentModel{
 
     @NotNull
     private Long postId;
+
+
+    @GeneratedValue
+    @Id
+    private Long commentId;
+
+
+    @NotNull
+    private String username;
+
+    public @NotNull String CommentModel () {
+    return commentBody;
+    }
+}
