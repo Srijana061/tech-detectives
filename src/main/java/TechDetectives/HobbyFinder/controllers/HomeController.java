@@ -59,6 +59,7 @@ public class HomeController {
         if(optCategory.isPresent()) {
             Category category = optCategory.get();
             newHobby.setCategory(category);
+
         }
         hobbyRepository.save(newHobby);
         return "redirect:./";

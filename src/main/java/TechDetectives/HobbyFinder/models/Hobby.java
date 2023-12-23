@@ -14,6 +14,7 @@ public class Hobby extends AbstractEntity {
     @ManyToOne
     private Category category;
 
+
     public Hobby() {
 
     }
@@ -31,6 +32,7 @@ public class Hobby extends AbstractEntity {
     public void setCategory(Category category) {
         this.category = category;
     }
+
 
 
 }
