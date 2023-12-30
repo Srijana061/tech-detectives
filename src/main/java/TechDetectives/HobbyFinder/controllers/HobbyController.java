@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
-public class HomeController {
+public class HobbyController {
 
     @Autowired
     private CategoryRepository categoryRepository;
@@ -65,14 +65,14 @@ public class HomeController {
         return "redirect:./";
 
     }
-    @GetMapping("view/{hobbyId}")
+    @GetMapping("hobby/{hobbyId}")
     public String displayViewHobby(Model model, @PathVariable int hobbyId) {
         Optional<Hobby> optHobby = hobbyRepository.findById(hobbyId);
 
         if(optHobby.isPresent()) {
             Hobby hobby = (Hobby) optHobby.get();
             model.addAttribute("hobby", hobby);
-            return "view";
+            return "hobby";
         } else {
             return "redirect:./";
         }
