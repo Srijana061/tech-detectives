@@ -1,2 +1,4 @@
 .DS_Store
-.gradle
+.gradle/
+/.gradle/
+/.gradle/8.5/
