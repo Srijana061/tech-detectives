@@ -64,7 +64,7 @@ public class HobbyController {
         return "redirect:./";
 
     }
-    @GetMapping("hobby/{hobbyId}")
+    @GetMapping("view/{hobbyId}")
     public String displayViewHobby(Model model, @PathVariable int hobbyId) {
         Optional<Hobby> optHobby = hobbyRepository.findById(hobbyId);
 
