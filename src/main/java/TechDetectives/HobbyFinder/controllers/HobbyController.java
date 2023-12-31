@@ -29,7 +29,6 @@ public class HobbyController {
         return "index";
 
     }
-
     @GetMapping("add")
     public String displayAddHobbyForm(Model model) {
         model.addAttribute("title", "Add Hobby");
