@@ -1,5 +1,6 @@
 package TechDetectives.HobbyFinder.models;
 
+import jakarta.persistence.Entity;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -9,7 +10,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 //entity represents a row in the table. Once the database is set up, this
 //annotation can be used.
 
-//@Entity
+@Entity
 public class User extends AbstractEntity {
 
     //FIELDS

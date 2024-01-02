@@ -5,6 +5,9 @@ package TechDetectives.HobbyFinder.models;
 //does not map anything to a table in the database but only its subclasses/classes
 //that extend this class. This will be implemented once the database is set up.
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
 //@MappedSuperclass
 public abstract class AbstractEntity {
 
@@ -13,8 +16,8 @@ public abstract class AbstractEntity {
     //GeneratedValue is used to assign a value to each primary key, a number that has not
     //already been used.
 
-    //@Id
-    //@GeneratedValue
+    @Id
+    @GeneratedValue
     private int id;
 
     public int getId(){
