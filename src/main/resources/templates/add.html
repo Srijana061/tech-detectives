@@ -27,7 +27,8 @@
 
     <div class="form-group">
         <label th:for="description">Description</label>
-        <input class="form-control" th:field="${hobby.description}" />
+        <textarea class="form-control" name= "description" rows= "5" th:field="${hobby.description}"></textarea>
+
         <span th:errors="${hobby.description}" class="error"></span>
     </div>
 
