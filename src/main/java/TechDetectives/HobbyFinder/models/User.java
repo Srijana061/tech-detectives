@@ -2,6 +2,7 @@ package TechDetectives.HobbyFinder.models;
 
 import jakarta.persistence.Entity;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
@@ -15,11 +16,10 @@ public class User extends AbstractEntity {
 
     //FIELDS
 
-    @NotBlank(message = "Username is required")
-    @Size(min = 3, max = 30, message = "Username must be 3-30 characters long")
+    @NotNull
     private String username;
 
-    @NotBlank
+    @NotNull
     private String pwHash;
 
     private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
