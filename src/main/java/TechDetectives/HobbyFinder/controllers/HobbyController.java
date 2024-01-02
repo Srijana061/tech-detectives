@@ -42,7 +42,7 @@ public class HobbyController {
 
 
     @PostMapping("add")
-    public String processAddHobbyForm(@ModelAttribute @Valid Hobby newHobby, Errors errors, Model model, @RequestParam int categoryId) {
+    public String processAddHobbyForm(@ModelAttribute @Valid Hobby newHobby, Errors errors, Model model, @RequestParam int categoryId, @RequestParam("description") String description, @RequestParam ("location") String location) {
         if(errors.hasErrors()) {
             model.addAttribute("title", "Add Hobby");
 
