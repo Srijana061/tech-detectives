@@ -49,6 +49,9 @@
                     <a th:href="@{'/categories/view/' + ${hobby.category.id}}" th:text="${hobby.category.name}"></a>
                 </p>
 
+                <p th:text="${'Description: ' + hobby.description}"></p>
+                <p th:text="${'Location: ' + hobby.location}"></p>
+
 
             </td>
         </tr>
