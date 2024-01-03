@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/dto/LoginFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/dto/RegisterFormDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/data/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/data/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/AbstractEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +45,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Thymeleaf" />
       </list>
     </option>
   </component>
@@ -90,6 +97,12 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/User" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="tech-detectives [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>

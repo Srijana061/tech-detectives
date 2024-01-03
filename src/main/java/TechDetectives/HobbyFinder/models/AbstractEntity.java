@@ -7,8 +7,9 @@ package TechDetectives.HobbyFinder.models;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
 
-//@MappedSuperclass
+@MappedSuperclass
 public abstract class AbstractEntity {
 
     //Id will be used to indicate that the variable below is the primary key.
