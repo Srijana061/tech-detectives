@@ -2,6 +2,7 @@ package TechDetectives.HobbyFinder.controllers;
 
 import TechDetectives.HobbyFinder.data.UserRepository;
 import TechDetectives.HobbyFinder.models.User;
+import TechDetectives.HobbyFinder.models.dto.LoginFormDTO;
 import TechDetectives.HobbyFinder.models.dto.RegisterFormDTO;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
@@ -80,6 +81,13 @@ public class AuthenticationController {
         setUserInSession(request.getSession(),newUser);
 
         return "redirect:";
+    }
+
+    @GetMapping("/login")
+    public String displayLoginForm(Model model){
+        model.addAttribute(new LoginFormDTO());
+        model.addAttribute("title","Log In");
+        return "login";
     }
 
 
