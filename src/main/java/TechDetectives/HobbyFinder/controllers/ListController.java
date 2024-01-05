@@ -1,7 +1,8 @@
-package TechDetectives.HobbyFinder.controllers;
+package TechDetectives.HobbyFinder.Controllers;
 
-import TechDetectives.HobbyFinder.data.CategoryRepository;
-import TechDetectives.HobbyFinder.data.HobbyRepository;
+
+import TechDetectives.HobbyFinder.Models.Data.CategoryRepository;
+import TechDetectives.HobbyFinder.Models.Data.HobbyRepository;
 import TechDetectives.HobbyFinder.Models.Category;
 import TechDetectives.HobbyFinder.Models.Hobby;
 import TechDetectives.HobbyFinder.Models.HobbyData;

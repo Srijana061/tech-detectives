@@ -1,6 +1,6 @@
-package TechDetectives.HobbyFinder.controllers;
+package TechDetectives.HobbyFinder.Controllers;
 
-import TechDetectives.HobbyFinder.data.CategoryRepository;
+import TechDetectives.HobbyFinder.Models.Data.CategoryRepository;
 
 import TechDetectives.HobbyFinder.Models.Category;
 import jakarta.validation.Valid;
