@@ -1,4 +1,4 @@
-package TechDetectives.HobbyFinder.Models.Data;
+package TechDetectives.HobbyFinder.models.Data;
 
 public interface HobbyRepository {
 }
