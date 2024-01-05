@@ -2,9 +2,9 @@ package TechDetectives.HobbyFinder.controllers;
 
 import TechDetectives.HobbyFinder.data.CategoryRepository;
 import TechDetectives.HobbyFinder.data.HobbyRepository;
-import TechDetectives.HobbyFinder.models.Category;
-import TechDetectives.HobbyFinder.models.Hobby;
-import TechDetectives.HobbyFinder.models.HobbyData;
+import TechDetectives.HobbyFinder.Models.Category;
+import TechDetectives.HobbyFinder.Models.Hobby;
+import TechDetectives.HobbyFinder.Models.HobbyData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

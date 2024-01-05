@@ -2,7 +2,7 @@ package TechDetectives.HobbyFinder.controllers;
 
 import TechDetectives.HobbyFinder.data.CategoryRepository;
 
-import TechDetectives.HobbyFinder.models.Category;
+import TechDetectives.HobbyFinder.Models.Category;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

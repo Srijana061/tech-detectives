@@ -1,10 +1,9 @@
-package TechDetectives.HobbyFinder.models;
+package TechDetectives.HobbyFinder.Models;
 
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @Entity
 public class Category extends AbstractEntity {

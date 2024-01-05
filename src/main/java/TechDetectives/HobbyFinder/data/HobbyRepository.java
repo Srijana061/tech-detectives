@@ -1,7 +1,7 @@
 package TechDetectives.HobbyFinder.data;
 
 
-import TechDetectives.HobbyFinder.models.Hobby;
+import TechDetectives.HobbyFinder.Models.Hobby;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

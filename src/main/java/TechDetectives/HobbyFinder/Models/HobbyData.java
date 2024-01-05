@@ -1,4 +1,4 @@
-package TechDetectives.HobbyFinder.models;
+package TechDetectives.HobbyFinder.Models;
 
 import java.util.ArrayList;
 

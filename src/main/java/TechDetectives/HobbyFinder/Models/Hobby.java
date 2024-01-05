@@ -1,12 +1,7 @@
-package TechDetectives.HobbyFinder.models;
+package TechDetectives.HobbyFinder.Models;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
-
-
-import java.util.Objects;
 
 @Entity
 public class Hobby extends AbstractEntity {
