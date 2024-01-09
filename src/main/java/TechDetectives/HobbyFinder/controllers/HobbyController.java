@@ -71,7 +71,7 @@ public class HobbyController {
         if(optHobby.isPresent()) {
             Hobby hobby = (Hobby) optHobby.get();
             model.addAttribute("hobby", hobby);
-            return "view";
+            return "hobby";
         } else {
             return "redirect:./";
         }
