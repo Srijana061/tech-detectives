@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
+
+<body>
+
+<h1 th:text="${'Category: ' + category.name}">Default Title</h1>
+<nav th:replace="~{fragments :: page-header}"></nav>
+
+<div class ="hobby-listing">
+<p th:text="${'Name: ' + category.name}"></p>
+    <p th:text="${'Location: ' + category.location}"></p>
+<p> Hobbies:
+<ul>
+    <li th:each="hobby: ${category.hobbies}">
+        <a th:href = "@{'/view/' +${hobby.id}}"
+           th:text = "${hobby.name}"></a>
+    </li>
+</ul>
+</p>
+</div>
+
+</body>
+</html>

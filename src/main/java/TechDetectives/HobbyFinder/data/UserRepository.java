@@ -1,7 +1,7 @@
 package TechDetectives.HobbyFinder.data;
 
 
-import TechDetectives.HobbyFinder.models.User;
+import TechDetectives.HobbyFinder.Models.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User,Integer> {

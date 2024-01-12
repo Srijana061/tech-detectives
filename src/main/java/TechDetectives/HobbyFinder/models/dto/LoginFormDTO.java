@@ -1,4 +1,4 @@
-package TechDetectives.HobbyFinder.models.dto;
+package TechDetectives.HobbyFinder.Models.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
