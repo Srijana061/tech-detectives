@@ -1,6 +1,6 @@
 package TechDetectives.HobbyFinder.Controllers;
 
-import TechDetectives.HobbyFinder.data.UserRepository;
+import TechDetectives.HobbyFinder.Models.Data.UserRepository;
 import TechDetectives.HobbyFinder.Models.User;
 import TechDetectives.HobbyFinder.Models.dto.LoginFormDTO;
 import TechDetectives.HobbyFinder.Models.dto.RegisterFormDTO;
