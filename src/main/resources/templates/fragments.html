@@ -15,6 +15,11 @@
 
 <div th:fragment="page-header" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+        <th:block th:unless="${loggedIn}">
+            <a href="/login">Log In</a>
+            <a href="/register">Register</a>
+        </th:block>
+        <th:block th:if="${loggedIn}">
         <div class="navbar-header">
 
             <a th:href="@{/}" class="navbar-brand">Hobbies</a>
@@ -26,6 +31,7 @@
                 <li><a th:href="@{/add}">Add Hobbies</a></li>
             </ul>
         </div>
+        </th:block>
     </div>
 </div>
 
