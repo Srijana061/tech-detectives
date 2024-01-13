@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/HobbyFinder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,15 +16,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HobbyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HobbyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HomePageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/CommentModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/CommentModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthenticationController.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ListController.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SearchController.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/images/HobbyFinder.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/HomePageController.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/HomePageController.class.uniqueId0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/images/HobbyFinder.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Thymeleaf" />
         <option value="Class" />
+        <option value="Thymeleaf" />
       </list>
     </option>
   </component>

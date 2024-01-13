@@ -20,6 +20,6 @@ public class HomePageController {
     public String displayHomePage(Model model, HttpSession session) {
         model.addAttribute("loggedIn", session.getAttribute("user"));
         model.addAttribute("hobbies", hobbyRepository.findAll());
-        return "index";
+        return "homepage";
     }
 }
