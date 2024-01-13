@@ -14,7 +14,7 @@
 <body>
 
 <div th:fragment="page-header" class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+    <div class="nav">
         <th:block th:unless="${loggedIn}">
             <a href="/login">Log In</a>
             <a href="/register">Register</a>

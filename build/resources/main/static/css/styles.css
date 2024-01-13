@@ -60,3 +60,10 @@ div.hobby-listing {
     width: 80%;
     background-color: #e4e4e4;
 }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 15px;
+}
