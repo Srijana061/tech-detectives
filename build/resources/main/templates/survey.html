@@ -5,5 +5,27 @@
     <title>Sign Up Survey</title>
 </head>
 <body>
+<h1>Sign Up Survey</h1>
+<h3>This survey is used to help us understand a little bit more about you so that we can
+    recommend communities to you based off of your interests.
+</h3>
+
+<form method="post">
+    <div>
+        <p>
+            This survey is used to help us understand a little bit more about you so that we can recommend communities
+            to you based off of your interests.
+        </p>
+        <label th:each="category : ${categories}">
+            <input th:field="${category.name}" type="checkbox" value="nothing" th:text="${category.name}" />
+        </label>
+
+    </div>
+    <input type="submit" value="Submit"/>
+</form>
 </body>
 </html>
+
+<!--<label th:each="category : ${categories}">
+    <input th:field="${category.name}" type="radio" value="nothing" th:text="${category.name}" />
+</label> -->
