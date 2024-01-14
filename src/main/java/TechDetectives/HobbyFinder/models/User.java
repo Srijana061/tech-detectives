@@ -13,9 +13,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Entity
 public class User extends UserAbstractEntity {
-
-    //FIELDS
-
     @NotNull
     private String username;
 
@@ -23,17 +20,12 @@ public class User extends UserAbstractEntity {
     private String pwHash;
 
     private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-
-    //CONSTRUCTORS
-
     public User() {}
 
     public User(String username, String password){
         this.username = username;
         this.pwHash = encoder.encode(password);
     }
-
-    //METHODS
 
     public boolean isMatchingPassword(String password){
         return encoder.matches(password,pwHash);
