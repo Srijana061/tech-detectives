@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 //annotation can be used.
 
 @Entity
-public class User extends AbstractEntity {
+public class User extends UserAbstractEntity {
 
     //FIELDS
 
