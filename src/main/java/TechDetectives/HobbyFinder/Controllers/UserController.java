@@ -1,9 +1,14 @@
 package TechDetectives.HobbyFinder.Controllers;
 
+import TechDetectives.HobbyFinder.Models.Category;
+import TechDetectives.HobbyFinder.Models.Data.CategoryRepository;
+import TechDetectives.HobbyFinder.Models.Data.SurveyRepository;
 import TechDetectives.HobbyFinder.Models.Data.UserRepository;
+import TechDetectives.HobbyFinder.Models.Survey;
 import TechDetectives.HobbyFinder.Models.User;
 import TechDetectives.HobbyFinder.Models.dto.LoginFormDTO;
 import TechDetectives.HobbyFinder.Models.dto.RegisterFormDTO;
+import TechDetectives.HobbyFinder.Models.dto.SurveyFormDTO;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
@@ -15,13 +20,20 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.util.List;
 import java.util.Optional;
 
 @Controller
-public class AuthenticationController {
+public class UserController {
 
     @Autowired
     UserRepository userRepository;
+
+    @Autowired
+    CategoryRepository categoryRepository;
+
+    @Autowired
+    SurveyRepository surveyRepository;
 
     private static final String userSessionKey = "user";
 
@@ -123,5 +135,41 @@ public class AuthenticationController {
     public String logout(HttpServletRequest request){
         request.getSession().invalidate();
         return "redirect:/login";
+    }
+
+    @GetMapping("/survey")
+    public String displaySurveyForm (Model model) {
+        List categories = (List<Category>) categoryRepository.findAll();
+
+        if(categories.size() > 20){
+            categories = categories.subList(0,20);
+        }
+
+        model.addAttribute("title","Sign Up Survey");
+        model.addAttribute("categories", categories);
+        model.addAttribute(new SurveyFormDTO());
+        return "survey";
+    }
+
+    @PostMapping("/survey")
+    public String processSurveyForm (@Valid SurveyFormDTO surveyFormDTO, Errors errors, Model model,
+                                     HttpServletRequest request){
+        List categories = (List<Category>) categoryRepository.findAll();
+
+        if(categories.size() > 20){
+            categories = categories.subList(0,20);
+        }
+        if(errors.hasErrors()){
+            model.addAttribute("categories", categories);
+            model.addAttribute("title","Sign Up Survey");
+            return "survey";
+        }
+
+        User currentUser = getUserFromSession(request.getSession());
+        Survey surveyResults = new Survey(surveyFormDTO.getInterest1(),surveyFormDTO.getInterest2(),surveyFormDTO.getInterest3(),
+                surveyFormDTO.getLocation(),currentUser);
+        surveyRepository.save(surveyResults);
+
+        return "redirect:";
     }
 }

@@ -1,23 +1,33 @@
-package TechDetectives.HobbyFinder.Models.dto;
+package TechDetectives.HobbyFinder.Models;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToOne;
 
-import java.util.List;
+@Entity
+public class Survey extends UserAbstractEntity{
 
-public class SurveyFormDTO {
-
-    @NotBlank(message = "Please select an option")
     private String interest1;
 
-    @NotBlank(message = "Please select an option")
     private String interest2;
 
-    @NotBlank(message = "Please select an option")
     private String interest3;
 
     private String location;
+
+    @OneToOne
+    @JoinColumn(name = "user_id")
+    private User user_id;
+
+    public Survey(){}
+
+    public Survey(String interest1,String interest2,String interest3,String location,User user_id){
+        this.interest1 = interest1;
+        this.interest2 = interest3;
+        this.interest3 = interest2;
+        this.location = location;
+        this.user_id = user_id;
+    }
 
     public String getInterest1() {
         return interest1;

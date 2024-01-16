@@ -7,25 +7,40 @@
 <body>
 <h1>Sign Up Survey</h1>
 <h3>This survey is used to help us understand a little bit more about you so that we can
-    recommend communities to you based off of your interests.
+    recommend communities to you based off of your current interests.
 </h3>
 
 <form method="post">
     <div>
-        <p>
-            Please pick between 1 and 3 categories that interest you.
-        </p>
-        <label th:each="category : ${categories}">
-            <div th:if="${categories}">
-                <input type="checkbox" value="nothing" th:text="${category.name}" />
-            </div>
+        <p>Please choose the category that most interests you.</p>
+        <select th:field="${surveyFormDTO.interest1}">
+            <option value =""></option>
+            <option th:each="category : ${categories}" th:value = ${category} th:text = "${category}"></option>
+        </select>
+        <p class = "error" th:errors="${surveyFormDTO.interest1}"></p>
+
+        <p>Please choose the 2nd category that most interests you.</p>
+        <select th:field="${surveyFormDTO.interest2}">
+            <option value =""></option>
+            <option th:each="category : ${categories}" th:value = ${category} th:text = "${category}"></option>
+        </select>
+        <p class = "error" th:errors="${surveyFormDTO.interest2}"></p>
+
+        <p>Please choose the 3rd category that most interests you.</p>
+        <select th:field="${surveyFormDTO.interest3}">
+            <option value =""></option>
+            <option th:each="category : ${categories}" th:value = ${category} th:text = "${category}"></option>
+        </select>
+        <p class = "error" th:errors="${surveyFormDTO.interest3}"></p>
+
+        <p></p>
+        <label>Please enter your state, city or country (This field is optional).
+            <input th:field="${surveyFormDTO.location}"/>
         </label>
     </div>
-    <input type="submit" value="Next"/>
+
+    <p></p>
+    <input type="submit" value="Submit"/>
 </form>
 </body>
 </html>
-
-<!--<label th:each="category : ${categories}">
-    <input th:field="${category.name}" type="radio" value="nothing" th:text="${category.name}" />
-</label> -->

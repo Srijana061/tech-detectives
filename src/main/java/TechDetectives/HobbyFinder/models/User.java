@@ -1,11 +1,8 @@
 package TechDetectives.HobbyFinder.Models;
 
-import jakarta.persistence.Entity;
-import jakarta.validation.constraints.NotBlank;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-
 
 //An entity represents a table stored in a database. Every instance of an
 //entity represents a row in the table. Once the database is set up, this
@@ -13,11 +10,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Entity
 public class User extends UserAbstractEntity {
-    @NotNull
+
     private String username;
 
-    @NotNull
     private String pwHash;
+
+    @OneToOne(mappedBy = "user_id")
+    private Survey survey;
 
     private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
     public User() {}
