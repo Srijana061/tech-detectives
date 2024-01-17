@@ -17,7 +17,7 @@ public class Survey extends UserAbstractEntity{
 
     @OneToOne
     @JoinColumn(name = "user_id")
-    private User user_id;
+    private User userId;
 
     public Survey(){}
 
@@ -26,7 +26,7 @@ public class Survey extends UserAbstractEntity{
         this.interest2 = interest3;
         this.interest3 = interest2;
         this.location = location;
-        this.user_id = user_id;
+        this.userId = user_id;
     }
 
     public String getInterest1() {
@@ -59,5 +59,9 @@ public class Survey extends UserAbstractEntity{
 
     public void setLocation(String location) {
         this.location = location;
+    }
+
+    public User getUserId() {
+        return userId;
     }
 }
