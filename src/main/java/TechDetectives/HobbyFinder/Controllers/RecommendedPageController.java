@@ -33,26 +33,13 @@ public class RecommendedPageController {
     @Autowired
     SurveyRepository surveyRepository;
 
-    private static final String userSessionKey = "user";
-
-    public User getUserFromSession (HttpSession session){
-        Integer userId = (Integer) session.getAttribute(userSessionKey);
-        if (userId == null){
-            return null;
-        }
-
-        Optional<User> user = userRepository.findById(userId);
-
-        if(user.isEmpty()) {
-            return null;
-        }
-        return user.get();
-    }
+    @Autowired
+    UserController userController;
 
     @GetMapping("recommendedPage")
     public String displayRecommendedPage(Model model, HttpServletRequest request){
 
-        User currentUser = getUserFromSession(request.getSession());
+        User currentUser = userController.getUserFromSession(request.getSession());
         Survey currentUserSurveyData = surveyRepository.findByUserId(currentUser);
 
         Category interest1 = categoryRepository.findByName(currentUserSurveyData.getInterest1());
