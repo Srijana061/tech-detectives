@@ -11,6 +11,8 @@ import java.util.List;
 public interface HobbyRepository extends CrudRepository<Hobby, Integer> {
 
     List <Hobby> findByCategory(Category category);
+
+    List<Hobby> findByLocation(String location);
 }
 
 

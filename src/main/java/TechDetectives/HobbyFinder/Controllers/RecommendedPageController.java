@@ -59,6 +59,8 @@ public class RecommendedPageController {
         Category interest2 = categoryRepository.findByName(currentUserSurveyData.getInterest2());
         Category interest3 = categoryRepository.findByName(currentUserSurveyData.getInterest3());
 
+
+        List<Hobby>currentUserLocationHobbies = hobbyRepository.findByLocation(currentUserSurveyData.getLocation());
         List<Hobby> hobbiesOfInterest1 = hobbyRepository.findByCategory(interest1);
         List<Hobby> hobbiesOfInterest2 = hobbyRepository.findByCategory(interest2);
         List<Hobby> hobbiesOfInterest3 = hobbyRepository.findByCategory(interest3);
@@ -66,6 +68,7 @@ public class RecommendedPageController {
         model.addAttribute("hobbiesOfInterest1",hobbiesOfInterest1);
         model.addAttribute("hobbiesOfInterest2",hobbiesOfInterest2);
         model.addAttribute("hobbiesOfInterest3",hobbiesOfInterest3);
+        model.addAttribute("currentUserLocationHobbies",currentUserLocationHobbies);
 
         return "recommendedPage";
     }

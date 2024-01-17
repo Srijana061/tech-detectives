@@ -9,9 +9,5 @@ public interface CategoryRepository extends CrudRepository<Category, Integer> {
         Iterable<Category>findAllOrderByName(String name);
 
         Category findByName(String name);
-
-        //List<Category> findAllByLocationNotNull();
-
-
     }
 

@@ -7,8 +7,10 @@
 <body>
 <div class="container body-content">
     <h1>Recommended For You!</h1>
+    <h3>Based Off Of Your Interests</h3>
 
-    <div th:if="${!hobbiesOfInterest1.equals(hobbiesOfInterest2) || !hobbiesOfInterest1.equals(hobbiesOfInterest3)}">
+
+    <div th:if="${hobbiesOfInterest1 == hobbiesOfInterest2 && hobbiesOfInterest1 == hobbiesOfInterest3}">
     <table class = "hobby-listing" th:unless="${hobbiesOfInterest1.isEmpty()}">
         <tr th:each="hobby : ${hobbiesOfInterest1}" >
             <td>
@@ -22,7 +24,21 @@
     </table>
     </div>
 
-    <div th:if="${!hobbiesOfInterest2.equals(hobbiesOfInterest1) || !hobbiesOfInterest2.equals(hobbiesOfInterest3)}">
+    <div th:unless="${hobbiesOfInterest1 == hobbiesOfInterest2 && hobbiesOfInterest1 == hobbiesOfInterest3}">
+        <table class = "hobby-listing" th:unless="${hobbiesOfInterest1.isEmpty()}">
+            <tr th:each="hobby : ${hobbiesOfInterest1}" >
+                <td>
+                    <p th:text="${'Hobby ID: ' + hobby.id}"></p>
+                    <p th:text="${'Name: ' + hobby.name}"></p>
+                    <p th:text="${'Category: ' + hobby.category}"></p>
+                    <p th:text="${'Description: ' + hobby.description}"></p>
+                    <p th:text="${'Location: ' + hobby.location}"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div th:unless="${hobbiesOfInterest1 == hobbiesOfInterest2 && hobbiesOfInterest1 == hobbiesOfInterest3}">
     <table class = "hobby-listing" th:unless="${hobbiesOfInterest2.isEmpty()}">
         <tr th:each="hobby : ${hobbiesOfInterest2}">
             <td>
@@ -36,9 +52,24 @@
     </table>
     </div>
 
-    <div th:if="${!hobbiesOfInterest3.equals(hobbiesOfInterest1) || !hobbiesOfInterest3.equals(hobbiesOfInterest2)}">
+    <div th:unless="${hobbiesOfInterest1 == hobbiesOfInterest2 && hobbiesOfInterest1 == hobbiesOfInterest3}">
     <table class = "hobby-listing" th:unless="${hobbiesOfInterest3.isEmpty()}">
         <tr th:each="hobby : ${hobbiesOfInterest3}">
+            <td>
+                <p th:text="${'Hobby ID: ' + hobby.id}"></p>
+                <p th:text="${'Name: ' + hobby.name}"></p>
+                <p th:text="${'Category: ' + hobby.category}"></p>
+                <p th:text="${'Description: ' + hobby.description}"></p>
+                <p th:text="${'Location: ' + hobby.location}"></p>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <div th:unless="${currentUserLocationHobbies.isEmpty()}">
+        <h3>Based Off Of Your Location</h3>
+    <table class = "hobby-listing" th:unless="${currentUserLocationHobbies.isEmpty()}">
+        <tr th:each="hobby : ${currentUserLocationHobbies}">
             <td>
                 <p th:text="${'Hobby ID: ' + hobby.id}"></p>
                 <p th:text="${'Name: ' + hobby.name}"></p>
