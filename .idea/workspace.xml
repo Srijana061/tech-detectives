@@ -5,63 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/AuthenticationFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/RecommendedPageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/SurveyRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Survey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/UserAbstractEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/dto/SurveyFormDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/WebApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/recommendedPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/survey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/WebApplicationConfig.class.uniqueId0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/RecommendedPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/SurveyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Survey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/UserAbstractEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/dto/SurveyFormDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/WebApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/recommendedPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/AuthenticationController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HobbyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HobbyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/CommentModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/CommentModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Links.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/AuthenticationController.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UserRepository.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Links.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Hobby-Finder -0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Hobby-Finder -0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/Hobby-Finder -0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/Hobby-Finder -0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TechDetectives.HobbyFinder.HobbyFinderApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TechDetectives.HobbyFinder.HobbyFinderApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/TechDetectives.HobbyFinder.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/TechDetectives.HobbyFinder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TechDetectives.HobbyFinder.HobbyFinderApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TechDetectives.HobbyFinder.HobbyFinderApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +100,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "android.gradle.sync.needed": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/romeoh20/Desktop/tech-detectives",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -199,8 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.tech-detectives [build]" />
         <item itemvalue="Gradle.tech-detectives [bootRun]" />
+        <item itemvalue="Gradle.tech-detectives [build]" />
         <item itemvalue="Gradle.tech-detectives [bootRun]" />
         <item itemvalue="Gradle.tech-detectives [build]" />
         <item itemvalue="Gradle.tech-detectives [bootRun]" />
