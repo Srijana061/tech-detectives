@@ -3,7 +3,7 @@
 <head th:replace="~{fragments :: head}"></head>
 
 <body class="container  body-content">
-<h1 th:text="${'Hobby: ' + hobby.name}">Default Title</h1>
+<h1 th:text="${'Hobby: ' + hobby.name}">e</h1>
 
 <nav th:replace="~{fragments :: page-header}"></nav>
 
@@ -18,6 +18,13 @@
 
     <p th:text="${'Description: ' + hobby.description}"></p>
     <p th:text="${'Location: ' + hobby.location}"></p>
+        <ul >
+            <li th:each = "post : ${hobby.posts}">
+                <a th:href="@{'/posts/view/' + ${post.id}}" th:text="${post.name}"></a>
+                <p th:text="${post.body}"></p>
+            </li>
+        </ul>
+    </div>
 
 
 </div>
