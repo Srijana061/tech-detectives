@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head>
-    <meta charset="UTF-8">
-    <title>Custom Tags</title>
+
+    <title>Tags</title>
 </head>
 <body>
 
 
-    <div class="tags">
-        <span class="custom-tag"></span>
+<form id="tagForm">
+    <label for="tags">Hashtags:</label>
+    <select id="tags" name="tags" multiple>
+        <:forEach var="tag" items="${tags}">
+            <option value="${tag.id}">${tag.name}</option>
+        </:forEach>
+    </select>
 
 
-
-    </div>
-
+    <button type="button" onclick="addTagToPost()">Add Tag to Post</button>
+</form>
 
 </body>
 </html>
 
 
-//Tags: Allows the user to put tags w/in their post such as when cooking as a hobby you can put vegan or protein as a tag.//
+
 
 
