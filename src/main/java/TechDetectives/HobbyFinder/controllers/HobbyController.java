@@ -64,9 +64,25 @@ public class HobbyController {
 
     }
     @GetMapping("view/{hobbyId}")
-
     public String displayViewHobby(Model model, @PathVariable int hobbyId) {
         Optional<Hobby> optHobby = hobbyRepository.findById(hobbyId);
+
+        if(optHobby.isPresent()) {
+            Hobby hobby = (Hobby) optHobby.get();
+            model.addAttribute("hobby", hobby);
+            return "hobby";
+        } else {
+            return "redirect:./";
+        }
+    }
+
+    @GetMapping("random")
+    public String displayRandomHobby(Model model) {
+        List hobbies = (List <Hobby>) hobbyRepository.findAll();
+        double randDbl = Math.random();
+        double hobbyListSize = (double) hobbies.size();
+        double randHobbyId = Math.floor(hobbyListSize * randDbl);
+        Optional<Hobby> optHobby = hobbyRepository.findById((int) randHobbyId);
 
         if(optHobby.isPresent()) {
             Hobby hobby = (Hobby) optHobby.get();

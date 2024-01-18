@@ -12,7 +12,7 @@ public class Category extends AbstractEntity {
 
     @OneToMany
     @JoinColumn(name = "category_id")
-    private final List<Hobby> hobbies = new ArrayList<>();
+    private List<Hobby> hobbies = new ArrayList<>();
 
     public Category() {
 

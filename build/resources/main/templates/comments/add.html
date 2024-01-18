@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
+<body class="container body-content">
+
+<h1>Add Comment</h1>
+<nav th:replace="~{fragments :: page-header}"></nav>
+
+<form method="post" style="max-width:600px;">
+    <div class="form-group">
+        <label th:for ="name">Comment Subject</label>
+        <input class= "form-control" th:field="${commentModel.name}" />
+        <span th:errors="${commentModel.name}" class="error"></span>
+    </div>
+
+    <div class="form-group">
+        <label th:for="body">Comment Body</label>
+        <input class="form-control" th:field="${commentModel.body}" style="height:200px;font-size:14pt;"/>
+        <span th:errors="${commentModel.body}" class="error"></span>
+    </div>
+
+    <div class="form-group">
+        <label th:for="postId">PostID</label>
+        <input type="hidden" class="form-control" th:field="${post.id}"/>
+        <span th:errors="${post.id}" class="error"></span>
+    </div>
+
+    <input type="submit" value="Add Comment"/>
+</form>
+
+</body>
+</html>
