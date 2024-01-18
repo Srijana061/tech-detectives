@@ -15,7 +15,7 @@ public class User extends UserAbstractEntity {
 
     private String pwHash;
 
-    @OneToOne(mappedBy = "user_id")
+    @OneToOne(mappedBy = "userId")
     private Survey survey;
 
     private static final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
@@ -33,4 +33,9 @@ public class User extends UserAbstractEntity {
     public String getUsername() {
         return username;
     }
+
+    public Survey getSurvey() {
+        return survey;
+    }
 }
+
