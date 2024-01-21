@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<h2>Links to Liked Products</h2>
+<ul th:each="product : ${products}">
+    <li th:text="${product.name}"></li>
+    <p th:text="${product.description}"></p>
+
+
+    <ul>
+        <li th:each="link : ${product.links}" th:text="${link}"></li>
+    </ul>
+
+</ul>
+</body>
+</html>

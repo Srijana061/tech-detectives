@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+
+
+<form id="tagForm">
+    <label for="tags">Hashtags:</label>
+    <select id="tags" name="tags" multiple>
+        <th:each var="tag" items="${tags}">
+            <option value="${tag.id}">${tag.name}</option>
+        </th:each>
+    </select>
+
+
+    <button type="button" onclick="addTagToPost()">Add Tag to Post</button>
+</form>
+
+
+
+</body>
+</html>
