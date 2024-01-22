@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/CommentRepository 2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository 2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/CommentsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/HobbyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/ListController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/PostsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/AbstractEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/CommentModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/CategoryRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/CommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/HobbyRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/PostRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Data/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/Hobby.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/HobbyData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/HobbyModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/PostModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/models/UserModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/TechDetectives/HobbyFinder/HobbyFinderApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/Hobby-Finder -0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/Hobby-Finder -0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TechDetectives.HobbyFinder.HobbyFinderApplicationTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/TechDetectives.HobbyFinder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/categories/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/categories/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/hobby.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/list-hobbies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TechDetectives.HobbyFinder.HobbyFinderApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/HobbyController.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/CommentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HobbyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/ListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/PostsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/CommentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Data/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/Hobby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/HobbyData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/HobbyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/PostModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Links.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/categories/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/categories/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/categories/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hobby.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/list-hobbies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HobbyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Controllers/HobbyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/AbstractEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/CommentModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/CommentModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TechDetectives/HobbyFinder/Models/Data/HobbyRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/data/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/data/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/dto/LoginFormDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/dto/LoginFormDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/dto/RegisterFormDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/models/dto/RegisterFormDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Thymeleaf" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="user-account-creation" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Romeoh20&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="abe6ac64-aad1-446e-a439-05e7d792d171" />
+        <option name="url" value="https://github.com/Devanshusp/tech-detectives.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ZEwMkrEa0p2JHEs1DrRVorHRBb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "Merging user-account-creation",
+    "last_opened_file_path": "/Users/romeoh20/Desktop/tech-detectives",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/User" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="tech-detectives [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.tech-detectives [bootRun]" />
+        <item itemvalue="Gradle.tech-detectives [bootRun]" />
+        <item itemvalue="Gradle.tech-detectives [bootRun]" />
+        <item itemvalue="Gradle.tech-detectives [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="" />
+      <created>1702000501072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702000501072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="user-account-creation" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
