@@ -1,7 +1,12 @@
 package TechDetectives.HobbyFinder.Models;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Hobby extends AbstractEntity {
@@ -11,6 +16,17 @@ public class Hobby extends AbstractEntity {
     private String description;
     private String location;
 
+    public List<PostModel> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(List<PostModel> posts) {
+        this.posts = posts;
+    }
+
+    @OneToMany
+    @JoinColumn(name = "hobby_id")
+    private List<PostModel> posts = new ArrayList<>();
 
     public Hobby() {
 
