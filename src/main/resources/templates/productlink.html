@@ -5,14 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-<h2>Links to Liked Products</h2>
+<h2>Liked Products</h2>
 <ul th:each="product : ${products}">
-    <li th:text="${product.name}"></li>
+    <li>
+        <h3 th:text="${product.name}"></h3>
     <p th:text="${product.description}"></p>
 
 
     <ul>
-        <li th:each="link : ${product.links}" th:text="${link}"></li>
+        <li th:each="link : ${product.links}">
+            <a th:href="${link}" target="_blank" th:text="${link}">Link</a>
+        </li>
     </ul>
 
 </ul>
