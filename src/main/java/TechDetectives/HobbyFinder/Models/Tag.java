@@ -2,13 +2,16 @@ package TechDetectives.HobbyFinder.Models;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
 public class Tag {
 
 
-@Id
+    @Id
+    @GeneratedValue
+    private int id;
     private String tag;
 
 

@@ -18,6 +18,7 @@
 
     <p th:text="${'Description: ' + hobby.description}"></p>
     <p th:text="${'Location: ' + hobby.location}"></p>
+
         <ul >
             <li th:each = "post : ${hobby.posts}">
                 <a th:href="@{'/posts/view/' + ${post.id}}" th:text="${post.name}"></a>

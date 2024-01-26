@@ -14,9 +14,10 @@ import jakarta.validation.Valid;
 
 
 
-
-@RequestMapping("/tags")
 @Controller
+@RequestMapping("/tags")
+
+
 public class TagController {
 
 
