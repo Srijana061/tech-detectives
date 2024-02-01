@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tag List</title>
+</head>
+<body>
+
+<h1>Tag List</h1>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Title</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="tag : ${tags}">
+        <td th:text="${tag.id}"></td>
+        <td th:text="${tag.name}"></td>
+        <td th:text="${tag.description}"></td>
+        <td th:text="${tag.title}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<a href="/tags/add">Add New Tag</a>
+
+</body>
+</html>
