@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="~{fragments :: head}"></head>
+
+<body class="container  body-content">
+<h1 th:text="${'Hobby: ' + hobby.name}">e</h1>
+
+<nav th:replace="~{fragments :: page-header}"></nav>
+
+<div class="hobby-listing">
+    <p th:text="${'ID: ' + hobby.id}"></p>
+    <p th:text="${'Name: ' + hobby.name}"></p>
+
+
+    <p>
+        Category: <a th:href="@{'/categories/view/' + ${hobby.category.id}}" th:text="${hobby.category.name}"></a>
+    </p>
+
+    <p th:text="${'Description: ' + hobby.description}"></p>
+    <p th:text="${'Location: ' + hobby.location}"></p>
+        <ul >
+            <li th:each = "post : ${hobby.posts}">
+                <a th:href="@{'/posts/view/' + ${post.id}}" th:text="${post.name}"></a>
+                <p th:text="${post.body}"></p>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

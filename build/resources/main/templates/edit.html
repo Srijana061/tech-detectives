@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Hobby</title>
+</head>
+<body>
+<h1>Edit Hobby</h1>
+<form action="/edit/{hobbyId}" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" value="${hobby.name}"><br>
+
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description">${hobby.description}</textarea><br>
+
+    <label for="location">Location:</label><br>
+    <input type="text" id="location" name="location" value="${hobby.location}"><br>
+
+   
+
+    <button type="submit">Save Changes</button>
+</form>
+</body>
+</html>
