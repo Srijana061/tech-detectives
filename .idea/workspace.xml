@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Hobby-Finder_.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hobby-Finder_.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Hobby-Finder_.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hobby-Finder_.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HomePageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HobbyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HobbyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/AbstractEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Thymeleaf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
