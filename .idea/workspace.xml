@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94cdb626-861a-42ec-8bbc-2abf20c8ac6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Controllers/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TechDetectives/HobbyFinder/Models/AbstractEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Thymeleaf" />
         <option value="Class" />
+        <option value="Thymeleaf" />
       </list>
     </option>
   </component>
